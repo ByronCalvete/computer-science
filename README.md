@@ -1,1 +1,1 @@
-# computer-science
+# Open Source Computer Science Path
