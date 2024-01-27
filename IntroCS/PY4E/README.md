@@ -2,20 +2,20 @@
 
 ### Index
 
-- 1: Installing
-- 2: Why Program?
-- 3: Variables, expressions and statements
-- 4: Conditional Execution
-- 5: Functions
-- 6: Loops and Iterations
-- 7: Strings
-- 8: Files
-- 9: Lists
-- 10: Dictionaries
-- 11: Tuples
-- 12: Regular Expressions
-- 13: Network and Programming
-- 14: Using Web Services
-- 15: Object-Oriented Programming
-- 16: Databases
-- 17: Data Visualization
+- [1: Installing](https://www.py4e.com/software-mac.php)
+- [2: Why Program?](https://www.py4e.com/html3/01-intro)
+- [3: Variables, expressions and statements](https://www.py4e.com/html3/02-variables)
+- [4: Conditional Execution](https://www.py4e.com/html3/03-conditional)
+- [5: Functions](https://www.py4e.com/html3/04-functions)
+- [6: Loops and Iterations](https://www.py4e.com/html3/05-iterations)
+- [7: Strings](https://www.py4e.com/html3/06-strings)
+- [8: Files](https://www.py4e.com/html3/07-files)
+- [9: Lists](https://www.py4e.com/html3/08-lists)
+- [10: Dictionaries](https://www.py4e.com/html3/09-dictionaries)
+- [11: Tuples](https://www.py4e.com/html3/10-tuples)
+- [12: Regular Expressions](https://www.py4e.com/html3/11-regex)
+- [13: Network and Programming](https://www.py4e.com/html3/12-network)
+- [14: Using Web Services](https://www.py4e.com/html3/13-web)
+- [15: Object-Oriented Programming](https://www.py4e.com/html3/14-objects)
+- [16: Databases](https://www.py4e.com/html3/15-database)
+- [17: Data Visualization](https://www.py4e.com/html3/16-viz)
