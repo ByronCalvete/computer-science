@@ -2,8 +2,8 @@
 
 ### Index
 
-- [Lecture 0: Scratch](https://www.youtube.com/watch?v=3LPJfIKxwWc&list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4)
-- [Lecture 1: C](https://www.youtube.com/watch?v=cwtpLIWylAw&list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4&index=2)
+- [Lecture 0: Scratch](scratch)
+- [Lecture 1: C](c)
 - [Lecture 2: Arrays](https://www.youtube.com/watch?v=4vU4aEFmTSo&list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4&index=3)
 - [Lecture 3: Algorithms](https://www.youtube.com/watch?v=jZzyERW7h1A&list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4&index=4)
 - [Lecture 4: Memory](https://www.youtube.com/watch?v=F9-yqoS7b8w&list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4&index=5)
