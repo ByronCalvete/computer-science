@@ -10,7 +10,7 @@ if fh > 40.0:
   regPay = fh * fr
   overtime = (fh - 40)*(fr * 0.5)
   pay = regPay + overtime
-  print('Pay:', pay)
 else:
   pay = fh * fr
-  print('Pay:', pay)
+
+print('Pay:', pay)
