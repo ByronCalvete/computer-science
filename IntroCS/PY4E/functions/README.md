@@ -2,7 +2,7 @@
 
 [Lecture](https://www.py4e.com/html3/04-functions)
 
-### T function or not to function...
+### To function or not to function...
 
 - Organize your code into "paragraphs" - capture a complete thought and "name it"
 - Don't repeat yourself - make it work once and the reuse it
