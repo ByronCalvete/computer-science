@@ -2,7 +2,7 @@
 
 [Lecture](https://www.py4e.com/html3/03-conditional)
 
-In this section we talked about:
+In this section we talk about:
 - Comparison operators (==  <=  >= < > !=)
 - Indentation
 - One-way decisions

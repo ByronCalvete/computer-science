@@ -2,7 +2,7 @@
 
 [Lecture](https://www.py4e.com/html3/05-iterations)
 
-In this section we talked about:
+In this section we talk about:
 - While loops (indefinite)
 - Infinite loops
 - Using break

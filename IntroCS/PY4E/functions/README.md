@@ -9,7 +9,7 @@
 - If something gets too long or complex, break it up into logical chunks and put those chunks in functions
 - Make a library of common stuff that you do over and over
 
-In this section we talked about:
+In this section we talk about:
 - Arguments
 - Results (fruitful functions)
 - Void (non-fruitful) functions
