@@ -7,6 +7,6 @@ def count(word, letter):
       count = count + 1
   
   convert = str(count)
-  print('The letter ' + letter + ' appears ' + convert + ' times on word ' + word)
+  print(f'the letter {letter} appears {convert} times on word {word}')
 
 count('banana', 'a') # The letter a appears 3 times on word banana
