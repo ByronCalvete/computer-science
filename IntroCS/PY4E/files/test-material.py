@@ -3,11 +3,12 @@ fname = input('Enter the file name: ')
 try:
   fhand = open(fname)
 except:
-  print('Fle cannot be opened:', fname)
-  quit()
+  print('File cannot be opened', fname)
+  exit()
 
-count = 0
+count  = 0
+
 for line in fhand:
-  count = count + 1
-
-print(f'The file {fname} has {count} lines')
+  if line.startswith('Subject:'):
+    count = count + 1
+print(f'There whete {count} subject lines in {fname}')
