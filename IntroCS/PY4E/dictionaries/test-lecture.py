@@ -35,6 +35,7 @@ except:
 counts = dict()
 
 for line in fhand:
+  line = line.rstrip()
   words = line.split()
   for word in words:
     counts[word] = counts.get(word, 0) + 1
