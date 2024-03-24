@@ -74,7 +74,7 @@ print(y) # ['stephen.marquard@uct.ac.za']
 y = re.findall('^From \S+@\S+', x)
 print(y) # ['From stephen.marquard@uct.ac.za']
 y = re.findall('^From (\S+@\S+)', x)
-print(y) # ['From stephen.marquard@uct.ac.za']
+print(y) # ['stephen.marquard@uct.ac.za']
 
 # <---------->
 
