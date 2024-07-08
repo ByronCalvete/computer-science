@@ -1,0 +1,77 @@
+/* Grid */
+
+/* .my-page-header {
+  grid-area: nav-header;
+  background: red;
+  padding: 10px;
+}
+
+.my-page-body {
+  grid-area: main-body;
+  background: blue;
+  padding: 10px;
+}
+
+.my-page-sidebar {
+  grid-area: nav-sidebar;
+  background: green;
+  padding: 10px;
+}
+
+.my-page-footer {
+  grid-area: footer;
+  background: yellow;
+  padding: 10px;
+}
+
+.my-page {
+  display: grid;
+  grid-template-areas:
+    "nav-header nav-header  nav-header  nav-sidebar"
+    "main-body  main-body   .           nav-sidebar"
+    "footer     footer      footer      footer"
+} */
+
+/* Animations */
+
+.guitar {
+  display: inline-block;
+  font-size: 30px;
+  position: absolute;
+  right: 0;
+  animation: move 1s infinite alternate;
+}
+
+.guitars-list {
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.ease {
+  animation-timing-function: ease;
+}
+
+.ease-in-out {
+  animation-timing-function: ease-in-out;
+}
+
+.ease-out {
+  animation-timing-function: ease-out;
+}
+
+.ease-in {
+  animation-timing-function: ease-in;
+}
+
+.cubic-bezier {
+  animation-timing-function: cubic-bezier(0,1,.5,1);
+}
+
+@keyframes move {
+  to { translate: 50px }
+}
