@@ -80,27 +80,70 @@
 
 ## Reading binary files using urllib
 
-# Read all data at once
-import urllib.request, urllib.parse, urllib.error
+# # Read all data at once
+# import urllib.request, urllib.parse, urllib.error
 
-img  = urllib.request.urlopen('http://data.pr4e.org/cover3.jpg').read()
-fhand = open('hola.jpg', 'wb')
-fhand.write(img)
-fhand.close()
+# img  = urllib.request.urlopen('http://data.pr4e.org/cover3.jpg').read()
+# fhand = open('hola.jpg', 'wb')
+# fhand.write(img)
+# fhand.close()
 
-# Read data in blocks (or buffers)
-img2 = urllib.request.urlopen('http://data.pr4e.org/cover3.jpg')
-fhand2 = open('hola2.jpg', 'wb')
+# # Read data in blocks (or buffers)
+# img2 = urllib.request.urlopen('http://data.pr4e.org/cover3.jpg')
+# fhand2 = open('hola2.jpg', 'wb')
 
-size = 0
-count = 0
+# size = 0
+# count = 0
 
-while True:
-  info = img2.read(100000)
-  if len(info) < 1: break
-  size = size + len(info)
-  fhand2.write(info)
-  count += 1
+# while True:
+#   info = img2.read(100000)
+#   if len(info) < 1: break
+#   size = size + len(info)
+#   fhand2.write(info)
+#   count += 1
 
-print(f'{size} characters copied in {count} buffers.')
-fhand2.close()
+# print(f'{size} characters copied in {count} buffers.')
+# fhand2.close()
+
+## Parsing HTML using regular expressions
+
+# # Search for link values within URL input
+# import urllib.request, urllib.parse, urllib.error
+# import re
+# import ssl
+
+# # Ignore SSL certificate errors
+# ctx = ssl.create_default_context()
+# ctx.check_hostname = False
+# ctx.verify_mode = ssl.CERT_NONE
+
+# url = input('Enter - ')
+# html = urllib.request.urlopen(url, context=ctx).read()
+# links = re.findall(b'href="(http[s]?://.*?)"', html)
+
+# for link in links:
+#   print(link.decode())
+
+## Parsing HTML using BeautifulSoup
+
+# import urllib.request, urllib.parse, urllib.error
+# from bs4 import BeautifulSoup
+# import ssl
+
+# # Ignore SSL certificate errors
+# ctx = ssl.create_default_context()
+# ctx.check_hostname = False
+# ctx.verify_mode = ssl.CERT_NONE
+
+# url = input('Enter - ')
+# html = urllib.request.urlopen(url, context=ctx).read()
+# soup = BeautifulSoup(html, 'html.parser')
+
+# # Retrieve all of the anchor tags
+# tags = soup('a')
+# for tag in tags:
+#   # Look at the parts of a tag
+#   print('TAG:', tag)
+#   print('URL:', tag.get('href', None))
+#   print('Contents:', tag.contents)
+#   print('Attrs:', tag.attrs)
