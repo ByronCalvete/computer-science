@@ -5,10 +5,10 @@
 import socket
 
 inputUrl = input('Enter url - ')
-urlParts = inputUrl.split('/')
-hostname = urlParts[2]
 
 try:
+  urlParts = inputUrl.split('/')
+  hostname = urlParts[2]
   mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
   mysock.connect((hostname, 80))
 except:
@@ -18,10 +18,22 @@ except:
 cmd = f'GET {inputUrl} HTTP/1.0\r\n\r\n'.encode()
 mysock.send(cmd)
 
+counts = 0
+
 while True:
   data = mysock.recv(512)
   if len(data) < 1:
     break
-  print(data.decode(), end='')
+  decodeData = data.decode()
+
+  # Check existent URL
+  counts += 1
+  words = decodeData.split()
+  if counts == 1 and words[1] != '200':
+    print('Non-existent URL', inputUrl)
+    exit()
+
+  print(decodeData, end='')
+
 
 mysock.close()
