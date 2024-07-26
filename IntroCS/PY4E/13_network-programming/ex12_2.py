@@ -33,7 +33,6 @@ while True:
   
   # Check existent URL
   counts += 1
-  words = decodeData.split()
   if counts == 1 and words[1] != '200':
     print('Non-existent URL', inputUrl)
     exit()
