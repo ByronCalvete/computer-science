@@ -4,6 +4,8 @@
 
 import urllib.request
 
+LIMIT_CHARACTERS = 3000
+
 inputUrl = input('Enter url - ')
 
 try:
@@ -17,7 +19,7 @@ lst = list()
 for line in fhand:
   line = line.decode().strip()
 
-  if sum(lst) <= 3000:
+  if sum(lst) <= LIMIT_CHARACTERS:
     print(line)
 
   words = line.split()
