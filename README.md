@@ -2,5 +2,8 @@
 
 ### Intro CS
 
-- [Python for Everybody](/IntroCS/PY4E)
-- [CS50's Introduction to Computer Science](/IntroCS/CS50-Intro-CS)
+- [CS50's Introduction to Computer Science](./CS50-Intro-CS)
+
+### Python
+
+- [Python for Everybody](./PY4E)
